@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+                
+            var myvariable = true;
+            var myVariable = 5
+            var myVariabIe = "fish"
+
+            var words = "This is";
+            var morewords = " a sentence";
+            var sentence = words + morewords;
+            // document.write(sentence) 
+            var num1 = 5;
+            var num2 = 3;
+            var total = num1 + num2;        //+ersetzbar durch *-%/ möglich//
+            //var total = num1++ erhöht -- niedrieger es sich um die zahl increment//
+            // document.write(total);
+            var alpha = "ABCDEFG";
+            var length = alpha.length
+            document.write(length)
+            var result =alpha.substring(0,5);
+            document.write(result)
+
+            // var a = new Array(7);
+            // a[0] = "cat";
+            // a[1] = "dog";
+            // a[2] = "monkey";
+            // a[3] = "horse";
+            // a[4] = "mouse";
+            // a[5] = "8";
+            // a[6] = "true";
+            // document.write(a[4]);
+
+            var a = ["dog", "cat", 3, 5, false];
+            document.write(a[1])
+            //var a = new Array(" cat", "dog", 53, true);
+            document.write(a[2])
+
+
+            function sayHello(who) {
+                document.write("Hello, " + who);
+            }
+            sayHello("BoB");
+            document.write("<br>");
+            sayHello("Mary")
+
+            //nummerrn//
+            // var b = 11;
+            // if (b > 10){    //<= >= == !=
+            //     alert(b);   //alert lässt ein fesnster aufploppen
+            // }
+            //strings//
+            // var c = "jake";
+            // if(c == "Jake") {
+            //     alert(c);
+            // } else {
+            //     alert("The condition was false");
+            // }
+            //for loops//
+                for (i=0;i<5;i++) {
+                    document.write("This is iteration" + i + "<br>");
+                }
+        </script>
+    </body>
+</html>
